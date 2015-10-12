@@ -1,0 +1,1 @@
+<?php if ($_SERVER['SERVER_PORT']==443) header("Location: http://" . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF']); ?>
